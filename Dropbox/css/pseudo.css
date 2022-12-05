@@ -1,0 +1,18 @@
+#pseudo a {
+    background-color: #ddd;
+    font-weight: normal;
+}
+
+#pseudo a:hover {
+    background-color: #509;
+    font-weight: bold;
+    color: wheat;
+}
+
+#pseudo button:hover {
+    background-color: red;
+}
+
+#pseudo li {
+    display: inline;
+}
