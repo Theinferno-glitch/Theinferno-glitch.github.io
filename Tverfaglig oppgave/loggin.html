@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/loggin.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <!-- <img src="images/Supermat.jpeg" width="1470" height="980">-->
+     <!-- med CSS FlexBox kan vi få header elementet til å gå sidelengs -->
+     <header id="topMenu">
+        <span id="DropboxIcon">
+           
+            
+            <!-- dette er dropbox iconet -->
+        </span>
+        <span id="DropboxLogo"> Supermat
+            <!-- her er logo-teksten "Dropbox" -->
+        </span>
+        <nav id="topMenuNavLeft">
+            <!-- her er navigasjonsmeny #1 til venstre -->
+            <ul>
+                <li><button> <a href="whatissuperfood.html"> What is superfood?</a></button></li>
+                <li><button>Products</button> </li>
+                <li id="ingredienses"> <button><a href="ingreedienses.html">Ingrediences</a> </button></li>
+                <li><button><a href="pricing.html"> Pricing</a></button></li>
+                <li><button><a href="index.html"> Home</a></button></li>
+
+            </ul>
+        </nav>
+        <nav id="topMenuNavRight">
+           <!--  her kommer navigasjonsmeny #2 til høyre -->
+            <ul>
+               <li id="Signup"><button><a href="signup.html"> Sign up</a></button></li>
+              <!--   <li id="Loggin"><button><a href="loggin.html"> Logg in</a></button></li>-->
+                <li id="Getstarted"><button> Get started →</button></li>
+            </ul>
+        </nav>
+    
+        <!-- to do: knapp helt til høyre -->
+    </header>
+<div id="containere">
+
+    <div id="left_banner" class="flex_item">
+        
+    </div>
+
+    <div class="flex_item">
+
+        <div id="header" class="flex_item2">
+            Logg in to superfood.com
+        </div>
+
+        <div id="content" class="flex_item2">
+            <div id="container">
+                <form action="/action_page.php">
+                    <label for="fname">Username:</label><br>
+                    <input type="text" id="uname" name="uname" value="John"><br>
+                    <label for="lname">Password:</label><br>
+                    <input type="password" id="pword" name="pword" value="Doe"><br><br>
+                    <input  type="submit" value="Submit">
+                  </form> 
+
+                  
+            </div>
+        </div>
+
+    </div>
+        
+    <div id="right_banner" class="flex_item">
+        
+    </div>
+
+
+</div>
+</body>
+</html>
